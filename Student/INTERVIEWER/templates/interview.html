@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Platform</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <img src="{{ url_for('static', filename='images/axis_bank_logo.png') }}" alt="Axis Bank Logo">
+    </div>
+    <div class="header-content">
+      <h2>AI PROCTORED TEST</h2>
+      <h3>AXIS BANK RECRUITMENT</h3>
+    </div>
+    <div class="timer">
+      <h4>Time remaining: <div id="timer">03:00</div></h4>
+    </div>
+  </header>
+
+
+  <!-- QUESTIONS CONTAINER -->
+  <div class="container">
+
+    <!-- Navigation Pane -->
+    <!-- <div class="navBar">
+      <h2>Navigate Between Questions</h2>
+      <div class="navigation" id="questionButtons">
+        Buttons for questions will be dynamically added here dynamically using JS
+      </div>
+    </div> -->
+
+    <!-- Question Answer Pane -->
+    <div class="beechwala">
+
+      <!-- Question -->
+      <div class="question-pane">
+        <h2 class="question" id="questionTitle">Interviewer: </h2>
+        <p class="question-text" id="questionText">{{ initial_response }}</p>
+      </div>
+
+      <!-- Answer -->
+      <div class="answer-pane">
+        <h2 class="answer-header">YOU</h2>
+         <!-- Transcript -->
+          <div class="transcript-pane">
+            <h2 class="transcript-header">Transcript</h2>
+            <textarea class="transcript-textarea" id="transcriptDisplay" readonly></textarea>
+          </div>
+        <button class="record-btn" onclick="toggleRecording()" id="recordBtn">Record Answer</button>
+      </div>
+
+      
+
+      <!-- Next Question Btn -->
+      <div class="next-question-pane">
+        <button id="nextQuestion">Next Question</button>
+      </div>
+
+    </div>
+
+    <!-- Camera Monitoring Pane -->
+    <div class="monitor">
+      <div class="camera-feed-pane" id="cameraFeed">
+        <video id="video" autoplay muted></video>
+      </div>
+      <p>
+        1. Make sure you are visible properly in the screen all the time.
+      </p>
+      <p>
+        2. Only one face shouold be visible at one time.
+      </p>
+    </div>
+    
+  </div>
+
+
+  <!--  FOOTER     -->
+  <footer class="footer">
+    <p>&copy; 2023 Bankathon. Team NullVoid.</p>  
+    <button id="exitTest" onclick="exitTest()">Exit Test</button>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/face-api.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}">
+    // Call the function to create the question buttons
+</script>
+</body>
+</html>

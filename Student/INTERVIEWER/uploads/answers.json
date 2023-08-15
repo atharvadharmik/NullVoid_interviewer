@@ -1,0 +1,82 @@
+[
+    {
+        "ID": 1032201777,
+        "Question": "Interviewer: Hello, thank you for joining us today. Can you please tell me about your experience with Python programming and machine learning?",
+        "Answer": "I have a lot of working experience with Python programming and machine learning. In fact, I have created an interview platform using Python and various machine learning algorithms like phase detection, etc."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "  That's impressive! It's great to hear about your experience with Python programming and machine learning. Can you tell me more about the machine learning algorithms you've worked with and how you implemented them in your interview platform?",
+        "Answer": "I created a machine learning project for image classification. I used the CNN model for it. And for the interview platform, I used a direct API key from OpenAI to generate the responses."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "  That's fantastic! Implementing machine learning algorithms for image classification using the CNN model sounds like a challenging and interesting project. Could you tell me more about the specific CNN model you used and the results you achieved with it?\n\n",
+        "Answer": "I am sorry, I do not know the answer to that."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "  That's alright. Let's move on. Can you tell me about your experience with data analysis and data visualization using Python?\n\n",
+        "Answer": "I have a lot of experience working on data analysis and data visualization as it was a part of my curriculum and I can generate, I can take multiple or large data and generate various visual representations using them, pre-process the data, etc."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "What are some Python libraries or tools that you have used for data analysis and visualization?",
+        "Answer": "I have used pandas, numpy and python libraries for data analysis and visualization."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "Interviewer: Hello and welcome to the interview! I'm excited to learn more about your skills and experiences. Let's begin. \n\nQuestion 1: Can you tell me about your experience with Python programming?",
+        "Answer": "I do not have any experience in Python programming."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "Question 2: That's alright. Are you familiar with any other programming languages?",
+        "Answer": "Nope, I don't know any programming languages."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "Question 3: That's okay. Since the role requires knowledge of Python programming, are you open to learning it if you were to be offered the position?\n\n",
+        "Answer": "I guess I am, but I don't want to learn anything new."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "  Question 4: Thank you for sharing your thoughts. In addition to Python programming, the role also involves working with machine learning and data analysis. Can you tell me if you have any experience or knowledge in these areas?",
+        "Answer": "Nope, none at all."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "  Question 5: That's alright. The role also involves working in cross-functional teams and collaborating with data scientists. Can you tell me about any experiences you've had working in teams or collaborating with others?",
+        "Answer": "I'll just work alone."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "Question 7: Thank you for sharing that. In this role, there is a focus on developing and implementing algorithms and models. Do you have any experience or knowledge in this area?\n\n",
+        "Answer": "No, I don't"
+    },
+    {
+        "ID": 1032201777,
+        "Question": "  Question 8: That's alright. The role also involves working on machine learning pipelines and ensuring data quality and model performance. Are you familiar with these concepts or have any experience with them?",
+        "Answer": "No, I don't"
+    },
+    {
+        "ID": 1032201777,
+        "Question": "  Question 9: That's alright. The role also requires knowledge of web development, particularly with Flask and front-end components such as HTML, CSS, and JavaScript. Are you familiar with any of these technologies or have any experience in web development?",
+        "Answer": "I don't have any skills"
+    },
+    {
+        "ID": 1032201777,
+        "Question": "  Question 10: That's alright. The role also values strong communication skills. Can you tell me about any experiences you've had that highlight your communication abilities, such as presentations or written reports?\n\n",
+        "Answer": "I am really bad at writing reports and making presentations."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "  Thank you for sharing that. Communication skills are important in the role, and it's something you can always work on. Let's move on to some other questions. \n\nQuestion 11: The role also involves working in a fast-paced and innovative environment. Can you tell me about a time when you thrived in a fast-paced setting or demonstrated your ability to adapt to change?\n\n",
+        "Answer": "No, I don't want to get out of my comfort zone."
+    },
+    {
+        "ID": 1032201777,
+        "Question": "  I understand that stepping out of your comfort zone can be challenging. Thank you for your honesty. Let's move on to the next question.\n\nQuestion 12: The role also requires problem-solving skills. Can you tell me about a time when you successfully solved a complex problem or came up with a creative solution?\n\n(user response)",
+        "Answer": "I'm"
+    }
+]

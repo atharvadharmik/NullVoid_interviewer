@@ -1,0 +1,11 @@
+openai
+openpyxl
+PyPDF2
+ibm_watson
+python-dotenv
+flask
+webbrowser
+yagmail
+streamlit
+streamlit_option_menu
+pandas

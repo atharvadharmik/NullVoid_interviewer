@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interview Over</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+          }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 30%;
+            background-color: #00A86B;
+            color: #fff;
+            padding: 10px 20px;
+          }
+          .btnCls{
+            align-items: center;
+            align-content: center;
+          }
+          #Return{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #00A86B;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <img src='images/axis_bank_logo.png' alt="Axis Bank Logo">
+    </div>
+    <div class="header-content">
+      <h2>AI PROCTORED TEST</h2>
+      <h3>AXIS BANK RECRUITMENT</h3>
+    </div>
+  </header>
+    <h1>Interview Over</h1>
+    <p>The interview has been completed. You can now close this window.</p>
+    <div class="btnCls"><button onclick="Return()" id="Return">Return</button></div>
+    
+
+    <script>
+      function Return(){
+        window.location.href = "/terminate";
+      }
+    </script>
+</body>
+</html>
